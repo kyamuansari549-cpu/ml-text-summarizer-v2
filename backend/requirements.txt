@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+transformers>=4.40
+python-multipart>=0.0.9   # file uploads
+pytesseract>=0.3.10       # OCR (needs the Tesseract binary too, see README)
+Pillow>=10.0
+# torch: install the CPU-only build to keep it small, OR skip this line
+# to get the default (CUDA) build for GPU machines:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
